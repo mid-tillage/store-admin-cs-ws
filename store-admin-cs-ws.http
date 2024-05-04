@@ -1,0 +1,6 @@
+@store_admin_cs_ws_HostAddress = http://localhost:5025
+
+GET {{store_admin_cs_ws_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
