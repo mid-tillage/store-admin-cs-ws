@@ -5,8 +5,8 @@ using Microsoft.Extensions.DependencyInjection;
 using store_admin_cs_ws.Models;
 
 DotEnv.Load();
+Console.WriteLine("================================================================");
 var builder = WebApplication.CreateBuilder(args);
-
 var configuration = new ConfigurationBuilder()
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true) // Load configuration from appsettings.json
     .Build();
